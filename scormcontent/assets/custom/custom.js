@@ -127,7 +127,7 @@ $(document).ready(function() {
     //   if (optionVal == null && $(this).find('option[value="--Select--"]').length) {
     //     $(this).find('option[value="--Select--"]').prop('selected', true);
     //   }
-    // })
+    // })  
 
   });
   
@@ -1250,9 +1250,11 @@ $(document).on('keyup change', '.journalentry-response', function(){
     var myentrycontainer = $(this).closest('.journalentry-container');
 
     typingTimer = setTimeout(function() {      
-      var response = myentrycontainer.find('.journalentry-response').val();
+      var response = myentrycontainer.find('.journalentry-response').val();      
       var sectionid = myentrycontainer.data('sectionid');
       var entryid = myentrycontainer.data('entryid');
+
+      console.log(entryid + " "+response);
 
       UserData.Sections[sectionid].entries[entryid].response = response;
 
@@ -1262,6 +1264,34 @@ $(document).on('keyup change', '.journalentry-response', function(){
       
     }, doneTypingInterval);
 });
+
+
+$(document).on('click', '[data-block-id="cl976hi6x0002356pcvhr6ity"] .blocks-button__button, [data-block-id="cl976jmue000a356pjq8hqsuc"] .blocks-button__button', function(e){
+  e.preventDefault();
+
+  $('#app .journalentry-select').each(function(){
+    var $this = $(this);
+    console.log($this);
+
+    $this.find('option[disabled]').prop('disabled', false);
+
+    $this.prop("selectedIndex", 0);
+    
+      var myentrycontainer = $(this).closest('.journalentry-container');
+
+      var response = myentrycontainer.find('.journalentry-response').val();      
+      var sectionid = myentrycontainer.data('sectionid');
+      var entryid = myentrycontainer.data('entryid');
+
+      UserData.Sections[sectionid].entries[entryid].response = response;
+
+      console.log(UserData.Sections);    
+
+      setSectionstoLocalStorage();
+  })
+});
+
+
 
 $(document).on('change', '.journalentry-select', function(){  
   

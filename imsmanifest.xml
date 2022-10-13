@@ -1,13 +1,15 @@
 <?xml version="1.0" standalone="no" ?>
-<manifest identifier="f09Exp4C8IHT8VRzlM1t2QHR9G0f39-KrK1yGHFJ" version="1.3"
+<manifest identifier="f09Exp4C8IHT8VRzlM1t2QHR9G0f39-KcjAyyzRP" version="1.3"
   xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3"
   xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3"
+  xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3"
   xmlns:imsss="http://www.imsglobal.org/xsd/imsss"
   xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
                       http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd
                       http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd
+                      http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd
                       http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd">
   <metadata>
     <schema>ADL SCORM</schema>
@@ -19,7 +21,7 @@
       <title>(POC) Module 2: Advanced Account Management</title>
       <item identifier="i1" identifierref="r1" isvisible="true">
         <title>(POC) Module 2: Advanced Account Management</title>
-        <adlcp:dataFromLMS>eyJjcHYiOiJySzF5R0hGSiIsInJsZCI6ZmFsc2V9</adlcp:dataFromLMS>
+        <adlcp:dataFromLMS>eyJjcHYiOiJjakF5eXpSUCIsInJsZCI6ZmFsc2V9</adlcp:dataFromLMS>
         <imsss:sequencing>
           <imsss:deliveryControls tracked="true" completionSetByContent="true" objectiveSetByContent="true"/>
         </imsss:sequencing>
@@ -27,6 +29,10 @@
       <metadata>
         <adlcp:location>metadata.xml</adlcp:location>
       </metadata>
+      <imsss:sequencing>
+        <imsss:controlMode choice="true" flow="true"/>
+        <imsss:deliveryControls tracked="true" completionSetByContent="false" objectiveSetByContent="false"/>
+      </imsss:sequencing>
     </organization>
   </organizations>
   <resources>
@@ -68,26 +74,26 @@
 <file href="scormcontent/lib/fonts/Lato-Regular.woff" />
 <file href="scormcontent/lib/fonts/Lato-Light.woff" />
 <file href="scormcontent/lib/fonts/nf6Fj-8v-zFBhdk4-Cronos-Pro-Light.woff" />
-<file href="scormcontent/assets/gIhLwI8CkjyQioL0_small.png" />
-<file href="scormcontent/assets/q1vxSsWN1_tz3Xyv_small_1579124541.png" />
-<file href="scormcontent/assets/EwApa7aTChcH6vnz_LE4shvEaiZAnBnY7.png" />
-<file href="scormcontent/assets/UkP3itI_2-4CvYdf_iN4pgr5UjBXfejtZ.png" />
-<file href="scormcontent/assets/8jQLIUTfvALXp4F8_0E3aqgTZiSPl5W0B.png" />
-<file href="scormcontent/assets/7W32Nb40TDvfLLkc_1k4Cp2TkQ4yqw96d.png" />
-<file href="scormcontent/assets/crCZXdlt4L8MaWsZ_D6BtNOG-5gd8fz3x.jpg" />
-<file href="scormcontent/assets/kAlpf2LT-QZnLRRP_transcoded-qeUsgJD-s_NW26fZ-07_Networking.mp3" />
-<file href="scormcontent/assets/T61P1GTzKKz5ig7B_UDU6Lbma-DtIIHRy.png" />
-<file href="scormcontent/assets/o06hFpr8ILoi-ruv_IxwrN_mgHYi8AWHl.jpg" />
-<file href="scormcontent/assets/54xJO03bY9pUUk1I_transcoded-GJCkqY0ahP2hkffa-08_Preparation.mp3" />
-<file href="scormcontent/assets/9SUIlS2sxtm1T-cm_UoCupeS--FIMVN5h.png" />
-<file href="scormcontent/assets/1qIvrbuJjVmeKOUD_2la2GyPPaHMXNPOu.png" />
-<file href="scormcontent/assets/Qr1tz8TUcTc0BBI8_CWdrEwMHPJSV78cv.png" />
-<file href="scormcontent/assets/bl5LAQJ7COdkZwc9_EA9dBw4QXYCzJuKv.png" />
-<file href="scormcontent/assets/H7aPPaGFSy15Gf4V_6aqFlT47S8Kfkk8C.png" />
-<file href="scormcontent/assets/91jAfxr9Z3GQPJCT_c-udAOWAq0OZMqtU.png" />
-<file href="scormcontent/assets/ZcR3LyeIx4WxQ_M5_XHlsM5JVe7Pb-xVi.jpg" />
-<file href="scormcontent/assets/XFkGj2FD_tOA8DXc_12_medical.jpg" />
-<file href="scormcontent/assets/meupAYv8Aeu52T--_example-header-image.jpg" />
+<file href="scormcontent/assets/eQjk2SXOYYctBNNj_small.png" />
+<file href="scormcontent/assets/xTVND9j3Gvt3XAbS_small_1579124541.png" />
+<file href="scormcontent/assets/XVEYPptpVwg0eiRR_LE4shvEaiZAnBnY7.png" />
+<file href="scormcontent/assets/bzk46ahe52Gj3cLJ_iN4pgr5UjBXfejtZ.png" />
+<file href="scormcontent/assets/X-yAXPXg1DrVnDJK_0E3aqgTZiSPl5W0B.png" />
+<file href="scormcontent/assets/o_fziR3jjdBqKfbq_1k4Cp2TkQ4yqw96d.png" />
+<file href="scormcontent/assets/f5iCQdDEqnZhtFjD_D6BtNOG-5gd8fz3x.jpg" />
+<file href="scormcontent/assets/2KYqkj7xBoqELdme_transcoded-qeUsgJD-s_NW26fZ-07_Networking.mp3" />
+<file href="scormcontent/assets/KF18qHk4NI3LTCJP_UDU6Lbma-DtIIHRy.png" />
+<file href="scormcontent/assets/CnAgtt12-IHkPjba_IxwrN_mgHYi8AWHl.jpg" />
+<file href="scormcontent/assets/16LbuRq8IaGadIPQ_transcoded-GJCkqY0ahP2hkffa-08_Preparation.mp3" />
+<file href="scormcontent/assets/XbTjVNETwuDQAt7r_UoCupeS--FIMVN5h.png" />
+<file href="scormcontent/assets/WBqCdxmpY6JKbaNx_2la2GyPPaHMXNPOu.png" />
+<file href="scormcontent/assets/U6heZBwRONGplcYM_CWdrEwMHPJSV78cv.png" />
+<file href="scormcontent/assets/1rA92ik65MpcaaTD_EA9dBw4QXYCzJuKv.png" />
+<file href="scormcontent/assets/ee9oAKh5dYjqUlYy_6aqFlT47S8Kfkk8C.png" />
+<file href="scormcontent/assets/ssMyWV1El1v5wp5h_c-udAOWAq0OZMqtU.png" />
+<file href="scormcontent/assets/x4DixIFJLEh25NDm_XHlsM5JVe7Pb-xVi.jpg" />
+<file href="scormcontent/assets/QSOHYNNkckL2PGnW_12_medical.jpg" />
+<file href="scormcontent/assets/eGEOJIKiZFh3QhBo_example-header-image.jpg" />
 
     </resource>
   </resources>
